@@ -1,9 +1,9 @@
-function seccion_location(){
+function seccion_location() {
 
-  window.onscroll = function() {scrollFunction()};
-  
+  window.onscroll = function () { scrollFunction() };
+
   function scrollFunction() {
-    console.log(document.documentElement.scrollTop);
+    // console.log(document.documentElement.scrollTop);
     if (document.documentElement.scrollTop < 200) {
       $('.header').removeClass("change");
     } else {
@@ -22,7 +22,7 @@ function seccion_location(){
 
     }
 
-    if (document.documentElement.scrollTop > 970 && document.documentElement.scrollTop < 980 ) {
+    if (document.documentElement.scrollTop > 970 && document.documentElement.scrollTop < 980) {
 
       $('.lido-textura').css('bottom', '-105px');
 
@@ -40,111 +40,111 @@ function seccion_location(){
 
     }
 
-    
+
   }
 
 }
 
-function cuadros(){
-  setTimeout(function() {
-      var cuadro_cont = parseInt($('.image').css('width'));
-      console.log(cuadro_cont);
-      $('.image').css('height', cuadro_cont);
-  },500);
+function cuadros() {
+  setTimeout(function () {
+    var cuadro_cont = parseInt($('.image').css('width'));
+    // console.log(cuadro_cont);
+    $('.image').css('height', cuadro_cont);
+  }, 500);
 }
 
 
 
-function menu(){
+function menu() {
 
-  $(".open-menu").click(function(e) {
-    console.log('menu')
-      $('.links').css('left', '0');
-      $('.cerrar-menu').css('left', '0');
+  $(".open-menu").click(function (e) {
+    // console.log('menu')
+    $('.links').css('left', '0');
+    $('.cerrar-menu').css('left', '0');
   })
 
-  $(".cerrar-menu").click(function(e) {
-      $('.links').css('left', '-100%');
-      $('.cerrar-menu').css('left', '-100%');
+  $(".cerrar-menu").click(function (e) {
+    $('.links').css('left', '-100%');
+    $('.cerrar-menu').css('left', '-100%');
   })
 
 }
 
-function home(){
+function home() {
 
   var owl = $(".slider-home");
- 
-    owl.owlCarousel({
 
-      autoPlay: true, //Set AutoPlay to 3 seconds
-      items : 4, //10 items above 1000px browser width
-      itemsTablet: [600,2], //2 items between 600 and 0
-      itemsMobile : [400,2], // itemsMobile disabled - inherit from itemsTablet option
-      pagination:false
+  owl.owlCarousel({
 
-    });
+    autoPlay: true, //Set AutoPlay to 3 seconds
+    items: 4, //10 items above 1000px browser width
+    itemsTablet: [600, 2], //2 items between 600 and 0
+    itemsMobile: [400, 2], // itemsMobile disabled - inherit from itemsTablet option
+    pagination: false
+
+  });
 
 }
 
-function reviews(){
+function reviews() {
 
   var owl = $(".slide-reviews");
- 
-   owl.owlCarousel({
 
-      autoPlay: true, //Set AutoPlay to 3 seconds
-      singleItem:true,
-      pagination:false
+  owl.owlCarousel({
 
-    });
+    autoPlay: true, //Set AutoPlay to 3 seconds
+    singleItem: true,
+    pagination: false
+
+  });
 
 
 }
 
 
 
-function eventos(){
+function eventos() {
 
   var owl = $(".slider-eventos");
- 
-    owl.owlCarousel({
 
-      autoPlay: true, //Set AutoPlay to 3 seconds
-      items : 3, //10 items above 1000px browser width
-      itemsTablet: [600,2], //2 items between 600 and 0
-      itemsMobile : [400,1], // itemsMobile disabled - inherit from itemsTablet option
-      pagination:false
+  owl.owlCarousel({
 
-    });
+    autoPlay: true, //Set AutoPlay to 3 seconds
+    items: 3, //10 items above 1000px browser width
+    itemsTablet: [600, 2], //2 items between 600 and 0
+    itemsMobile: [400, 1], // itemsMobile disabled - inherit from itemsTablet option
+    pagination: false
+
+  });
 
 }
 
-function masajes(){
+function masajes() {
 
   var owl = $(".slider-masajes");
- 
-    owl.owlCarousel({
 
-      autoPlay: true, //Set AutoPlay to 3 seconds
-      items : 3, //10 items above 1000px browser width
-      itemsTablet: [600,1], //2 items between 600 and 0
-      itemsMobile : [400,1], // itemsMobile disabled - inherit from itemsTablet option
-      pagination:false
+  owl.owlCarousel({
 
-    });
+    autoPlay: true, //Set AutoPlay to 3 seconds
+    items: 3, //10 items above 1000px browser width
+    itemsTablet: [600, 1], //2 items between 600 and 0
+    itemsMobile: [400, 1], // itemsMobile disabled - inherit from itemsTablet option
+    pagination: false
 
-    $(".next").click(function(){
+  });
+
+  $(".next").click(function () {
     owl.trigger('owl.next');
-    })
-    $(".prev").click(function(){
-      owl.trigger('owl.prev');
-    })
+  })
+  $(".prev").click(function () {
+    owl.trigger('owl.prev');
+  })
 
 }
 
 
 
-$(document).ready(function() {
+$(document).ready(function () {
 
   menu();
   home();
@@ -154,25 +154,25 @@ $(document).ready(function() {
   seccion_location();
   reviews()
 
-  
+
 });
 
-$( window ).resize(function() {
-  
+$(window).resize(function () {
+
   cuadros();
 
 });
 
-app.controller('instagramCTRL', ['$scope', 'instagramFactory', function($scope, instagramFactory) {
-
-    instagramFactory.getMediaFromUserById({
-    userId: "2871800211",
-    access_token: "2871800211.2a4a724.b5f2a9ffae8146b4bde9708658ca5014",
-    }).then(function (_data) {
-      console.log(_data)
-       $scope.images = _data.data.data;
-    }).catch(function (_data) {
-        //on error
-    });
+app.controller('instagramCTRL', ['$scope', 'instagramFactory', function ($scope, instagramFactory) {
+  $scope.images = [];
+  instagramFactory.getMediaFromUserById({
+    userId: "552213517",
+    access_token: "IGQVJVcmpQdGRSUlFDODhkSmgxOEFpWDlkTDA4ZAU9HYTVaYXNrN1p2OGdYMXlCRTFGZAl9QX2hhenducTI5VVlWVlVNU1ZA6VXdxVGJqOTJCVC1UNjlvWUkySWJJMmd1dlkybUdJVXdueXJwemQ3UW5YMwZDZD",
+  }).then(function (_data) {
+    // console.log(_data)
+    $scope.images = _data.data.data;
+  }).catch(function (_data) {
+    //on error
+  });
 
 }]);
