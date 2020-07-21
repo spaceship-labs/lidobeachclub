@@ -6,7 +6,7 @@
 		<i class="icon-noun_contact_3106476"></i>
 	</div>
 
-	<form method="POST">
+	<form method="POST" action=''>
 			
 		<h1 class="title wow fadeInUp">
 			contacto
@@ -33,7 +33,7 @@
 
 		</div>
 
-		<img class="image-rigt" src="<?=get_bloginfo('template_directory')?>/img/texturalido3.png" alt="">
+		<img class="image-rigt" src="/img/texturalido3.png" alt="">
 
 	</form>
 
@@ -45,7 +45,7 @@
 	<div class="max-widht4">
 		
 		<div class="cont  wow fadeInLeft">
-			<img src="<?=get_bloginfo('template_directory')?>/img/logo-lido-verde.png" alt="">
+			<img src="/img/logo-lido-verde.png" alt="">
 		</div>
 		<div class="cont  wow fadeInRight" ng-controller="scrollCTL">
 			<a ng-click="scrollTo('home',$event)" class="link"><span>home</span></a>
@@ -53,7 +53,7 @@
 			<a ng-click="scrollTo('galeria',$event)" class="link"><span>galería</span></a>
 			<a ng-click="scrollTo('bodas',$event)" class="link"><span>bodas y eventos</span></a>
 			<a ng-click="scrollTo('masajes',$event)" class="link"><span>masajes</span></a>
-			<a download href="<?=get_bloginfo('template_directory')?>/img/menu.pdf" class="link"><span>descargar menú</span></a>
+			<a download href="/img/menu.pdf" class="link"><span>descargar menú</span></a>
 			<a ng-click="scrollTo('contacto',$event)" class="link"><span>contacto</span></a>
 			<div class="redes">
 				<a href="https://www.instagram.com/lidobeachclub/" target="_blank"><i class="icon-fb"></i></a>
@@ -117,7 +117,7 @@ if ($_POST['nombre']) {
 
 			// Cabeceras adicionales
 			$cabeceras .= 'To: Lido Beach <'.$contact_email.'>' . "\r\n";
-			$system_email = "info@hotelcolibribeach.mx";
+			$system_email = "info@lidobeachclub.mx";
 			$cabeceras .= 'From: Prisaire <'.$system_email.'>' . "\r\n";
 
 			// Enviarlo

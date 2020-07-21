@@ -1,13 +1,6 @@
-<?php
-/* 
-Template Name: Home
-*/ 
-?>
-<?php get_header();?>
+<?php include 'header.php'?>
 
-<div>
-
-	
+<div>	
 	<div id="home" class="home">
 		
 		<div class="cont max-widht1" ng-controller="scrollCTL">
@@ -20,7 +13,7 @@ Template Name: Home
 				<a href="">masaje</a>
 			</div>
 
-			<img src="<?=get_bloginfo('template_directory')?>/img/logo-lido-blanco.png" alt="">
+			<img src="/img/logo-lido-blanco.png" alt="">
 
 			<a ng-click="scrollTo('pointer',$event)" class="scroll-down">
 				<i class="icon-noun_scroll-down_2925967"></i>
@@ -53,55 +46,55 @@ Template Name: Home
 	<div class="slider-home">
 		
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoBeachClub_AleksOl_0053.JPG" alt="">
+			<img src="/img/LidoBeachClub_AleksOl_0053.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoBeachClub_AleksOl_0071.JPG" alt="">
+			<img src="/img/LidoBeachClub_AleksOl_0071.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoBeachClub_AleksOl_0081.JPG" alt="">
+			<img src="/img/LidoBeachClub_AleksOl_0081.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoBeachClub_AleksOl_0120.JPG" alt="">
+			<img src="/img/LidoBeachClub_AleksOl_0120.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoBeachClub_HotelColibri_075.JPG" alt="">
+			<img src="/img/LidoBeachClub_HotelColibri_075.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoEnero19_Art_012.JPG" alt="">
+			<img src="/img/LidoEnero19_Art_012.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoEnero19_Art_049.JPG" alt="">
+			<img src="/img/LidoEnero19_Art_049.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoEnero19_Art_073.JPG" alt="">
+			<img src="/img/LidoEnero19_Art_073.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoEnero19_Art_082.JPG" alt="">
+			<img src="/img/LidoEnero19_Art_082.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LidoMAYO17_071.JPG" alt="">
+			<img src="/img/LidoMAYO17_071.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/Lido_Nov18_009.JPG" alt="">
+			<img src="/img/Lido_Nov18_009.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/Lido_Nov18_014.JPG" alt="">
+			<img src="/img/Lido_Nov18_014.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/Lido_Nov18_050.JPG" alt="">
+			<img src="/img/Lido_Nov18_050.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/Lido_Nov18_111.JPG" alt="">
+			<img src="/img/Lido_Nov18_111.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/Lido_Nov18_113.JPG" alt="">
+			<img src="/img/Lido_Nov18_113.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LIDO_SBAC_008.JPG" alt="">
+			<img src="/img/LIDO_SBAC_008.JPG" alt="">
 		</div>
 		<div class="item">
-			<img src="<?=get_bloginfo('template_directory')?>/img/LIDO_SBAC_061.JPG" alt="">
+			<img src="/img/LIDO_SBAC_061.JPG" alt="">
 		</div>
 
 	</div>
@@ -111,14 +104,14 @@ Template Name: Home
 	<div id="menu" class="cont-menu">
 		
 		
-		<img class="menu wow fadeInUp" src="<?=get_bloginfo('template_directory')?>/img/header-menu-lido.png" alt="">
+		<img class="menu wow fadeInUp" src="/img/header-menu-lido.png" alt="">
 		
 
-		<a download href="<?=get_bloginfo('template_directory')?>/img/menu.pdf" class="button wow fadeInUp">
+		<a download href="/img/menu.pdf" class="button wow fadeInUp">
 			<span>descargar menú</span>
 		</a>
 
-		<!--<img src="<?=get_bloginfo('template_directory')?>/img/lido-textura.png" alt="" class="lido-textura">-->
+		<!--<img src="/img/lido-textura.png" alt="" class="lido-textura">-->
 
 	</div>
 
@@ -158,28 +151,28 @@ Template Name: Home
 		<div class="slider-eventos max-widht1">
 		
 			<div class="item">
-				<img src="<?=get_bloginfo('template_directory')?>/img/EventosLido_001.JPG" alt="">
+				<img src="/img/EventosLido_001.JPG" alt="">
 			</div>
 
 			<div class="item">
-				<img src="<?=get_bloginfo('template_directory')?>/img/EventosLido_004.JPG" alt="">
+				<img src="/img/EventosLido_004.JPG" alt="">
 			</div>
 
 			<div class="item">
-				<img src="<?=get_bloginfo('template_directory')?>/img/EventosLido_007.JPG" alt="">
+				<img src="/img/EventosLido_007.JPG" alt="">
 			</div>
 
 			<div class="item">
-				<img src="<?=get_bloginfo('template_directory')?>/img/EventosLido_008.JPG" alt="">
+				<img src="/img/EventosLido_008.JPG" alt="">
 			</div>
 
 			<div class="item">
-				<img src="<?=get_bloginfo('template_directory')?>/img/EventosLido_014.JPG" alt="">
+				<img src="/img/EventosLido_014.JPG" alt="">
 			</div>
 
 		</div>
 
-		<img src="<?=get_bloginfo('template_directory')?>/img/textura-lido2.png" alt="" class="lido-textura wow fadeInUp">
+		<img src="/img/textura-lido2.png" alt="" class="lido-textura wow fadeInUp">
 
 	</div>
 
@@ -200,30 +193,30 @@ Template Name: Home
 	<div class="info-masajes">
 
 		<div class="fotos-masajes max-widht-extend">
-			<img src="<?=get_bloginfo('template_directory')?>/img/IMG_0805.jpg" alt="">
+			<img src="/img/IMG_0805.jpg" alt="">
 			<!--
 			<div class="box-slide">
 				<div class="row prev"><i class="icon-izq-flecha"></i></div>
 				<div class="slider-masajes">
 			
 					<div class="item">
-						<img src="<?=get_bloginfo('template_directory')?>/img/IMG_0805.jpg" alt="">
+						<img src="/img/IMG_0805.jpg" alt="">
 					</div>
 
 					<div class="item">
-						<img src="<?=get_bloginfo('template_directory')?>/img/IMG_0805.jpg" alt="">
+						<img src="/img/IMG_0805.jpg" alt="">
 					</div>
 
 					<div class="item">
-						<img src="<?=get_bloginfo('template_directory')?>/img/IMG_0805.jpg" alt="">
+						<img src="/img/IMG_0805.jpg" alt="">
 					</div>
 
 					<div class="item">
-						<img src="<?=get_bloginfo('template_directory')?>/img/IMG_0805.jpg" alt="">
+						<img src="/img/IMG_0805.jpg" alt="">
 					</div>
 
 					<div class="item">
-						<img src="<?=get_bloginfo('template_directory')?>/img/IMG_0805.jpg" alt="">
+						<img src="/img/IMG_0805.jpg" alt="">
 					</div>
 
 				</div>
@@ -288,7 +281,7 @@ Template Name: Home
 	<div class="reviews">
 		
 		<a href="https://www.tripadvisor.com/" class=" wow fadeInUp" target="_blank">
-			<img src="<?=get_bloginfo('template_directory')?>/img/logo-tripadvison.jpg" alt="">
+			<img src="/img/logo-tripadvison.jpg" alt="">
 		</a>
 
 		<div class="slide-reviews max-widht1">
@@ -296,7 +289,7 @@ Template Name: Home
 			<div class="review item">
 				
 				<div class="img">
-					<img src="<?=get_bloginfo('template_directory')?>/img/LidoEnero19_Art_012.JPG" alt="">
+					<img src="/img/LidoEnero19_Art_012.JPG" alt="">
 					<p>Marina M</p>
 					<p>4 reviews</p>
 				</div>
@@ -322,7 +315,7 @@ Template Name: Home
 			<div class="review item">
 				
 				<div class="img">
-					<img src="<?=get_bloginfo('template_directory')?>/img/LidoEnero19_Art_012.JPG" alt="">
+					<img src="/img/LidoEnero19_Art_012.JPG" alt="">
 					<p>Jon M</p>
 					<p>9 reviews</p>
 				</div>
@@ -348,7 +341,7 @@ Template Name: Home
 			<div class="review item">
 				
 				<div class="img">
-					<img src="<?=get_bloginfo('template_directory')?>/img/LidoEnero19_Art_012.JPG" alt="">
+					<img src="/img/LidoEnero19_Art_012.JPG" alt="">
 					<p>Marina M</p>
 					<p>4 reviews</p>
 				</div>
@@ -374,7 +367,7 @@ Template Name: Home
 			<div class="review item">
 				
 				<div class="img">
-					<img src="<?=get_bloginfo('template_directory')?>/img/LidoEnero19_Art_012.JPG" alt="">
+					<img src="/img/LidoEnero19_Art_012.JPG" alt="">
 					<p>Sonia M</p>
 					<p>1 reviews</p>
 				</div>
@@ -403,4 +396,4 @@ Template Name: Home
 
 </div>
 
-<?php get_footer(); ?> 
+<?php include 'footer.php'; ?> 

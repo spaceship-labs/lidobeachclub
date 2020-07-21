@@ -5,14 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	
-	<link rel="stylesheet" href="<?=get_bloginfo('template_directory')?>/css/style.css">
-	<link rel="stylesheet" href="<?=get_bloginfo('template_directory')?>/css/animate.css">
-	<link rel="stylesheet" href="<?=get_bloginfo('template_directory')?>/css/owl.transitions.css">
-	<link rel="stylesheet" href="<?=get_bloginfo('template_directory')?>/css/owl.carousel.css">
-	<link rel="stylesheet" href="<?=get_bloginfo('template_directory')?>/css/owl.theme.css">
-	<link rel="stylesheet" href="<?=get_bloginfo('template_directory')?>/css/owl.transitions.css">
-	<link rel="stylesheet" href="<?=get_bloginfo('template_directory')?>/css/main.css">
-	<link rel="icon" type="image/ico" href="<?=get_bloginfo('template_directory')?>/favicon2.png">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/animate.css">
+	<link rel="stylesheet" href="/css/owl.transitions.css">
+	<link rel="stylesheet" href="/css/owl.carousel.css">
+	<link rel="stylesheet" href="/css/owl.theme.css">
+	<link rel="stylesheet" href="/css/owl.transitions.css">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="icon" type="image/ico" href="/favicon.png">
 
     <title>Lido</title>
 
@@ -26,7 +26,7 @@
 
 	<div class="cont max-widht-extend">
 		<a ng-click="scrollTo('home',$event)" class="logo">
-			<img src="<?=get_bloginfo('template_directory')?>/img/logo-lido-blanco.png" alt="">
+			<img src="/img/logo-lido-blanco.png" alt="">
 		</a>
 		<div class="info"><span>INFO</span> <a href="">+52(984)-803-1090</a> | <a>info@lidobeachclub.mx</a></div>
 		<div class="lenguaje">
@@ -48,9 +48,9 @@
 			<a ng-click="scrollTo('galeria',$event)" class="link"><span>galería</span></a>
 			<a ng-click="scrollTo('bodas',$event)" class="link"><span>bodas y eventos</span></a>
 			<a ng-click="scrollTo('masajes',$event)" class="link"><span>masajes</span></a>
-			<a download href="<?=get_bloginfo('template_directory')?>/img/menu.pdf" class="link"><span>descargar menú</span></a>
+			<a download href="/img/menu.pdf" class="link"><span>descargar menú</span></a>
 			<a href="https://hotelcolibribeach.com/es/inicio/" target="_blank" class="colibri">
-				<img src="<?=get_bloginfo('template_directory')?>/img/Colibri-logo-blanco.png" alt="">
+				<img src="/img/Colibri-logo-blanco.png" alt="">
 			</a>
 			<a ng-click="scrollTo('contacto',$event)" class="contacto">
 				<span>contacto</span>
