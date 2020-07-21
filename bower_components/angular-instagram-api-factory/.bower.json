@@ -1,0 +1,39 @@
+{
+  "name": "angular-instagram-api-factory",
+  "homepage": "https://github.com/JohnnyTheTank/angular-instagram-api-factory",
+  "authors": [
+    "Jonathan Hornung <jonathan.hornung@gmail.com>"
+  ],
+  "version": "0.5.0",
+  "description": "angular factory for instagram rest api connection",
+  "main": "dist/angular-instagram-api-factory.min.js",
+  "moduleType": [],
+  "keywords": [
+    "instagram",
+    "angularjs",
+    "rest",
+    "api",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "*"
+  },
+  "_release": "0.5.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.5.0",
+    "commit": "333d349ae978c8fcb918d9b23ad02ea37e63ef5f"
+  },
+  "_source": "https://github.com/JohnnyTheTank/angular-instagram-api-factory.git",
+  "_target": "^0.5.0",
+  "_originalSource": "angular-instagram-api-factory",
+  "_direct": true
+}
