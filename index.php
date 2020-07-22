@@ -280,7 +280,7 @@
 
 	<div class="reviews">
 		
-		<a href="https://www.tripadvisor.com/" class=" wow fadeInUp" target="_blank">
+		<a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150812-d2462794-Reviews-Lido_Club_de_Playa-Playa_del_Carmen_Yucatan_Peninsula.html" class=" wow fadeInUp" target="_blank">
 			<img src="/img/logo-tripadvison.jpg" alt="">
 		</a>
 
@@ -289,9 +289,9 @@
 			<div class="review item">
 				
 				<div class="img">
-					<img src="/img/LidoEnero19_Art_012.JPG" alt="">
-					<p>Marina M</p>
-					<p>4 reviews</p>
+					<img src="/img/trip-1.jpg" alt="">
+					<p>Maria Fernanda E</p>
+					<p>1 Opinión</p>
 				</div>
 				<div class="info">
 					<div class="calificacion">
@@ -302,11 +302,11 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<p>Reviwed March 22,2020</p>
+						<p>Visita Julio,2020</p>
 					</div>
-					<h1>Amazing food, incredible service</h1>
+					<h1>Excelente opción para comer</h1>
 					<p class="mensaje">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Suupeeer rico todo y la atención excelente por parte de Elkin! Regresaríamos sin pensarlo! Es un lugar delicioso y a buen precio! Nos encantó todo!
 					</p>
 				</div>
 
@@ -315,9 +315,9 @@
 			<div class="review item">
 				
 				<div class="img">
-					<img src="/img/LidoEnero19_Art_012.JPG" alt="">
-					<p>Jon M</p>
-					<p>9 reviews</p>
+					<img src="/img/trip-2.jpg" alt="">
+					<p>ChuyAlondra M</p>
+					<p>2 opiniones</p>
 				</div>
 				<div class="info">
 					<div class="calificacion">
@@ -328,11 +328,11 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<p>Reviwed March 22,2020</p>
+						<p>Visita Julio,2020</p>
 					</div>
-					<h1>Cool food, incredible service</h1>
+					<h1>Lido beach club</h1>
 					<p class="mensaje">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Excelente servicio, comidas y bebidas deliciosas y buen aviente ... todos los chavos muy amables y gracias Elkin por tu buen servicio nos hiciste el sentir como en familia 👍 
 					</p>
 				</div>
 
@@ -341,9 +341,9 @@
 			<div class="review item">
 				
 				<div class="img">
-					<img src="/img/LidoEnero19_Art_012.JPG" alt="">
-					<p>Marina M</p>
-					<p>4 reviews</p>
+					<img src="/img/trip-3.jpg" alt="">
+					<p>Alberto M</p>
+					<p>1 Opinión</p>
 				</div>
 				<div class="info">
 					<div class="calificacion">
@@ -354,11 +354,11 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<p>Reviwed March 22,2020</p>
+						<p>Visita Marzo,2020</p>
 					</div>
-					<h1>Amazing food, incredible service</h1>
+					<h1>Lido beach</h1>
 					<p class="mensaje">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Lido Beach Club!! Un gran lugar, excelente atención sobre todo una felicitación al mesero Alex por su servicio y amabilidad, comida y bebidas muy ricas 
 					</p>
 				</div>
 
@@ -367,9 +367,9 @@
 			<div class="review item">
 				
 				<div class="img">
-					<img src="/img/LidoEnero19_Art_012.JPG" alt="">
-					<p>Sonia M</p>
-					<p>1 reviews</p>
+					<img src="/img/trip-4.jpg" alt="">
+					<p>Joanna M</p>
+					<p>2 opiniones</p>
 				</div>
 				<div class="info">
 					<div class="calificacion">
@@ -380,11 +380,11 @@
 							<div class="circle"></div>
 							<div class="circle"></div>
 						</div>
-						<p>Reviwed March 22,2020</p>
+						<p>Visita Marzo,2020</p>
 					</div>
-					<h1>Amazing Bed, incredible service</h1>
+					<h1>Lido Beach club!!</h1>
 					<p class="mensaje">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+						Lido Beach club gran lugar!! Lo recomiendo ampliamente! Gracias a nico y diana los mejores meseros!!! 
 					</p>
 				</div>
 

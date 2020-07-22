@@ -169,21 +169,13 @@ app.controller('instagramCTRL', ['$scope', 'instagramFactory', '$http', function
   const userId = '17841400645518628';
   const $url = 'https://graph.instagram.com/'
   $scope.images = [];
-  // instagramFactory.getMediaFromUserById({
-  //   userId: "17841400645518628",
-  //   access_token: "IGQVJVOVJmd2djYzlCZA3pyOUR4SlF3Mm4tQUFiWXM2VE5qaUxaOUdJemdGUnZA2RDlRZAzl5ZAlA3cDZAHekNlNXhDRVJSRzFnWWlJbFk5UlE3ZAFgxTExNVE5pSDl4a0Q2clBtTzNBbjN3",
-  // }).then(function (_data) {
-  //   console.log('INST', _data)
-  //   $scope.images = _data.data.data;
-  // }).catch(function (_data) {
-  //   //on error
-  // });
+
   function getMedia() {
     $http
       .get($url + userId + '/media?fields=media_url,thumbnail_url,permalink&access_token=' + token)
       .then(
         function successCallback(res) {
-          console.log('INSTA', res)
+          // console.log('INSTA', res)
           $scope.images = res.data.data || [];
         },
         function errorCallback() {
