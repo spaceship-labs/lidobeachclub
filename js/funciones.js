@@ -163,16 +163,45 @@ $(window).resize(function () {
 
 });
 
-app.controller('instagramCTRL', ['$scope', 'instagramFactory', function ($scope, instagramFactory) {
+app.controller('instagramCTRL', ['$scope', 'instagramFactory', '$http', function ($scope, instagramFactory, $http) {
+  let token = 'IGQVJVOVJmd2djYzlCZA3pyOUR4SlF3Mm4tQUFiWXM2VE5qaUxaOUdJemdGUnZA2RDlRZAzl5ZAlA3cDZAHekNlNXhDRVJSRzFnWWlJbFk5UlE3ZAFgxTExNVE5pSDl4a0Q2clBtTzNBbjN3';
+  let counter = 0;
+  const userId = '17841400645518628';
+  const $url = 'https://graph.instagram.com/'
   $scope.images = [];
-  instagramFactory.getMediaFromUserById({
-    userId: "552213517",
-    access_token: "IGQVJVcmpQdGRSUlFDODhkSmgxOEFpWDlkTDA4ZAU9HYTVaYXNrN1p2OGdYMXlCRTFGZAl9QX2hhenducTI5VVlWVlVNU1ZA6VXdxVGJqOTJCVC1UNjlvWUkySWJJMmd1dlkybUdJVXdueXJwemQ3UW5YMwZDZD",
-  }).then(function (_data) {
-    // console.log(_data)
-    $scope.images = _data.data.data;
-  }).catch(function (_data) {
-    //on error
-  });
+  // instagramFactory.getMediaFromUserById({
+  //   userId: "17841400645518628",
+  //   access_token: "IGQVJVOVJmd2djYzlCZA3pyOUR4SlF3Mm4tQUFiWXM2VE5qaUxaOUdJemdGUnZA2RDlRZAzl5ZAlA3cDZAHekNlNXhDRVJSRzFnWWlJbFk5UlE3ZAFgxTExNVE5pSDl4a0Q2clBtTzNBbjN3",
+  // }).then(function (_data) {
+  //   console.log('INST', _data)
+  //   $scope.images = _data.data.data;
+  // }).catch(function (_data) {
+  //   //on error
+  // });
+  function getMedia() {
+    $http
+      .get($url + userId + '/media?fields=media_url,thumbnail_url,permalink&access_token=' + token)
+      .then(
+        function successCallback(res) {
+          console.log('INSTA', res)
+          $scope.images = res.data.data || [];
+        },
+        function errorCallback() {
+          if (counter < 5) refreshToken();
+        }
+      );
+  }
+  getMedia();
+  function refreshToken() {
+    conunter += 1;
+    $http
+      .get($url + userId + '/refresh_access_token?grant_type=ig_refresh_token&access_token=' + token)
+      .then(
+        function successCallback(res) {
+          token = res.data.access_token;
+          getMedia();
+        }
+      );
+  }
 
 }]);

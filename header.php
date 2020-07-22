@@ -30,9 +30,9 @@
 			<img src="/img/logo-lido-blanco.png" alt="">
 		</a>
 		<div class="info"><span>INFO</span> <a href="">+52(984)-803-1090</a> | <a>info@lidobeachclub.mx</a></div>
-		<div class="lenguaje">
+		<!--<div class="lenguaje">
 			<a href="">ING</a><a href="">|</a><a href="">ESP</a>
-		</div>
+		</div>-->
 		<div class="redes">
 			<a href="https://www.instagram.com/lidobeachclub/" target="_blank"><i class="icon-fb"></i></a>
 			<a href="https://www.facebook.com/lidobeachclub" target="_blank"><i class="icon-insta"></i></a>
