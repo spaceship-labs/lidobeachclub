@@ -1,45 +1,7 @@
 </div><!--global-->
 	
-<div id="contacto" class="contacto">
-		
-	<div class="cont">
-		<i class="icon-noun_contact_3106476"></i>
-	</div>
-
-	<form method="POST" action=''>
-			
-		<h1 class="title wow fadeInUp">
-			contacto
-		</h1>
-
-		<p class=" wow fadeInUp"><strong>Escribenos para hacer una reserva o si tienes alguna pregunta </strong></p>
-		<p class=" wow fadeInUp" style="font-weight: 600">Playa entre calle 10 y 12, Colonia Centro CP 77710 Playa del Carmen, México interior Hotel Colibri Bach</p>
-		<p>INFO <a href="">+52(984)-803-1090</a> | <a>info@lidobeachclub.mx</a></p>
-
-		<div class="max-widht3">
-				
-			<label class=" wow fadeInLeft">nombre:</label>
-			<input type="text" class="input  wow fadeInUp" name="nombre">
-			<label class=" wow fadeInLeft">teléfono:</label>
-			<input type="text" class="input  wow fadeInUp" name="telefono">
-			<label class=" wow fadeInLeft">correo:</label>
-			<input type="text" class="input  wow fadeInUp" name="correo">
-			<label class=" wow fadeInLeft">mensaje:</label>
-			<textarea name="mensaje" id="" cols="30" rows="10" class="input"  wow fadeInUp></textarea>
-
-			<button class="button">
-				<span>ENVIAR</span>
-			</button>
-
-		</div>
-
-		<img class="image-rigt" src="/img/texturalido3.png" alt="">
-
-	</form>
-
-</div>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d238618.50389195108!2d-87.0992335!3d20.855352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e4330401cff5f%3A0xf5280c76ac47f216!2sLido%20Bar%20Restaurant!5e0!3m2!1sen!2smx!4v1593029863914!5m2!1sen!2smx" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<?php include 'sections/contact.php'; ?>
+<?php include 'sections/map.php'; ?>
 
 <div class="footer">
 	<div class="max-widht4">
