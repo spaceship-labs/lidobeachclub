@@ -186,7 +186,9 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .masajes p strong{font-family: monse-b;color: #B2DCAC}
 .masajes i{color: #B2DCAC;font-size: 300px;margin-top: 18px}
 
-.info-masajes{padding: 250px 0 60px 0;background: #484848;background-image: url('../img/textura2.png');background-size: cover;position: relative;}
+.info-masajes{
+  padding: 1px 0 60px 0;
+  background: #484848;background-image: url('../img/textura2.png');background-size: cover;position: relative;}
 .info-masajes .max-widht{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: stretch;}
 .info-masajes h1.title2{width: 100%}
 .info-masajes .cont{width: 50%;padding: 20px;display: flex;flex-direction: column;box-sizing: border-box;}
@@ -194,7 +196,13 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .info-masajes .cont .box h2{font-family: monse-b;font-size: 25px;margin-bottom: 10px;color: #FFFFFF;text-align: left;}
 .info-masajes .cont .box p{font-size: 16px;text-align: justify;;color: #FFFFFF}
 
-.fotos-masajes{position: absolute;width: 100%;left: 0;top: -15%;right: 0;display: flex;flex-direction: row;align-items: center;justify-content: center;}
+.fotos-masajes{
+  position: relative;
+  width: 100%;
+  /* left: 0;top: -15%;right: 0; */
+  margin-top: -150px;
+  margin-bottom: 80px;
+  display: flex;flex-direction: row;align-items: center;justify-content: center;}
 .fotos-masajes .box-slide{display: flex;flex-direction: row;align-items: stretch;justify-content: center;}
 .fotos-masajes .box-slide .row{width: 5%;display: flex;flex-direction: row;align-items: flex-end;justify-content: center;}
 .fotos-masajes .box-slide i{font-size: 40px;color: white;margin-bottom: 30px}
@@ -262,7 +270,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .footer .max-widht4 .cont .redes:hover i{color: white}
 
 @media(min-width: 1450px){
-    .fotos-masajes{top: -30%}
+    /* .fotos-masajes{top: -30%} */
 }
 
 
@@ -276,7 +284,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
     .max-widht4{max-width: 700px!important;width: 90%}
     .max-widht5{max-width: 600px!important;width: 90%}
     .max-widht6{max-width: 500px!important;width: 90%}
-    .fotos-masajes{top: -22%;}
+    /* .fotos-masajes{top: -22%;} */
     .fotos-masajes img{width: 500px}
 
 }
@@ -293,16 +301,16 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 }
 
 @media(max-width: 1200px){
-    .fotos-masajes{top: -20%}
+    /* .fotos-masajes{top: -20%} */
 }
 
 @media(max-width: 1000px){
-    .fotos-masajes{top: -7%}
+    /* .fotos-masajes{top: -7%} */
 }
 
 @media(max-width: 900px){
 	.home .cont .box a{font-size: 16px}
-    .fotos-masajes{top: -4%}
+    /* .fotos-masajes{top: -4%} */
     .eventos p{font-size: 24px;}
     .masajes p{font-size: 24px}
     .contacto form p{font-size: 18px}
@@ -325,7 +333,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
     .review .img,
     .review .info{width: 100%}
 
-    .fotos-masajes{top: -2%}
+    /* .fotos-masajes{top: -2%} */
     h1.title,
     h1.title2{font-size: 35px}
 
@@ -341,10 +349,15 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 }
 
 @media(max-width: 615px){
-    .fotos-masajes{top: -10%}
+    /* .fotos-masajes{top: -10%} */
     .contacto .cont{
       background-size: auto 100%;
       background-attachment: initial;
       height: 350px;
     }
+}
+@media(max-width: 450px){
+  .eventos p{
+    text-align: left;
+  }
 }
