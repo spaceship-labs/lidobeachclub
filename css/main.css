@@ -43,7 +43,7 @@ button{border: none;outline: none}
 button[disabled], html input[type=button][disabled], input[type=reset][disabled], input[type=submit][disabled]{opacity: .5}
 .input.ng-invalid.ng-dirty{border: 1px solid #E62117!important}
 .input.ng-valid{background: white}
-
+img{max-width: 100%;}
 /*Globales*/
 
 .max-widht,
@@ -342,4 +342,9 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 
 @media(max-width: 615px){
     .fotos-masajes{top: -10%}
+    .contacto .cont{
+      background-size: auto 100%;
+      background-attachment: initial;
+      height: 350px;
+    }
 }

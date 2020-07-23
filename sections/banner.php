@@ -21,17 +21,17 @@
 				<div class="conter wow fadeInLeft" data-wow-delay=".5s">
 					<i class="icon-noun_Music_1932413"></i>
 					<h2>música en vivo</h2>
-					<p>Miércoles y fines de semana</p>
+					<p>Miércoles y fines de semana.</p>
 				</div>
 				<div class="conter wow fadeInUp" data-wow-delay=".5s">
 					<i class="icon-noun_Grill_305301"></i>
 					<h2>parrillada</h2>
-					<p>Sábados y Domingos</p>
+					<p>Sábados y domingos.</p>
 				</div>
 				<div class="conter wow fadeInRight" data-wow-delay=".5s">
 					<i class="icon-noun_Pet-friendly_2677524"></i>
 					<h2>pet friendly</h2>
-					<p>Aceptamos mascotas con correa en el area de mesas</p>
+					<p>Aceptamos mascotas con correa en el area de mesas.</p>
 				</div>
 
 			</div>

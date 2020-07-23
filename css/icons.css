@@ -80,3 +80,9 @@
 .icon-insta:before {
   content: "\e90d";
 }
+.icon-adress:before {
+  content: "\e912";
+}
+.icon-phone:before {
+  content: "\e913";
+}
