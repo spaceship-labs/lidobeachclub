@@ -20,7 +20,7 @@
 			<div class="redes">
 				<a href="https://www.instagram.com/lidobeachclub/" target="_blank"><i class="icon-fb"></i></a>
 				<a href="https://www.facebook.com/lidobeachclub" target="_blank"><i class="icon-insta"></i></a>
-				<a href="https://www.tripadvisor.com/" target="_blank"><i class="icon-noun_Owl_1443698"></i></a>
+				<a href="https://www.tripadvisor.com/" target="_blank"><i class="icon-tripadvisor"></i></a>
 			</div>
 		</div>
 
