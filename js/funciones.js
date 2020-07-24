@@ -145,23 +145,18 @@ function masajes() {
 
 
 $(document).ready(function () {
-
   menu();
   home();
-  cuadros();
+  // cuadros();
   eventos();
   masajes();
   seccion_location();
   reviews()
-
-
 });
 
-$(window).resize(function () {
-
-  cuadros();
-
-});
+// $(window).resize(function () {
+//   cuadros();
+// });
 
 app.controller('instagramCTRL', ['$scope', 'instagramFactory', '$http', function ($scope, instagramFactory, $http) {
   let token = 'IGQVJVOVJmd2djYzlCZA3pyOUR4SlF3Mm4tQUFiWXM2VE5qaUxaOUdJemdGUnZA2RDlRZAzl5ZAlA3cDZAHekNlNXhDRVJSRzFnWWlJbFk5UlE3ZAFgxTExNVE5pSDl4a0Q2clBtTzNBbjN3';
