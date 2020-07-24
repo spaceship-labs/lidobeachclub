@@ -239,14 +239,20 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .slider-eventos .item{padding: 0 10px;box-sizing: border-box;display: flex;flex-direction: row;justify-content: center;align-items: center;}
 .slider-eventos .item img{width: 100%}
 
-.eventos p{color: #4B4744;margin: 50px auto;font-size: 24px;text-align: center;width: 90%;max-width: 1050px}
+.eventos p{
+  color: #4B4744;margin: 50px auto;font-size: 24px;text-align: center;width: 90%;max-width: 1050px;
+  text-align: justify;
+}
 .eventos p strong{font-family: monse-b}
 .eventos .lido-textura{width: 90%;max-width: 700px;position: absolute;bottom: -90px;left: 0;right: 0;margin: 0 auto}
 
 
 .masajes{padding-top: 60px;padding-bottom: 150px;display: flex;flex-direction: column;justify-content: center;align-items: center;}
 .masajes .title{margin-bottom: 30px}
-.masajes p{color: #4B4744;margin: 20px auto;font-size: 24px;text-align: center;width: 90%;max-width: 1050px}
+.masajes p{
+  color: #4B4744;margin: 20px auto;font-size: 24px;text-align: center;width: 90%;max-width: 1050px;
+  text-align: justify;
+}
 .masajes p strong{font-family: monse-b;color: #B2DCAC}
 .masajes i{color: #B2DCAC;font-size: 300px;margin-top: 18px}
 
