@@ -58,7 +58,9 @@ img{max-width: 100%;}
 h1.title{font-family: Grand;font-size: 50px;color: #484848;text-transform: uppercase;}
 h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppercase;text-align: left;margin-bottom: 20px}
 
-.button{padding: 20px 30px;border: 2px solid #B2DCAC;box-sizing: border-box;;margin-top: 30px;max-width: 285px;margin: 0 auto;display: flex;flex-direction: row;justify-content: center;align-content: center;;transition: all ease-in-out .5s}
+.button{padding: 20px 30px;border: 2px solid #B2DCAC;box-sizing: border-box;;margin-top: 30px;max-width: 285px;margin: 0 auto;display: flex;flex-direction: row;justify-content: center;align-content: center;transition: all ease-in-out .5s;
+  background-color: transparent;
+}
 .button span{color: #B2DCAC;font-size: 22px;text-transform: uppercase;text-align: center;font-family: monse-b;transition: all ease-in-out .5s}
 
 .button:hover{background: #B2DCAC}
@@ -144,7 +146,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 
 .servicios{display: flex;flex-direction: row;align-items: center;justify-content: space-between;width: 100%;flex-wrap: wrap;margin-top: 100px}
 .servicios .conter{width: 30%;display: flex;flex-direction: column;align-items: center;justify-content: center;margin: 10px}
-.servicios .conter i{color: white;font-size: 150px;}
+.servicios .conter i{color: white;font-size: 100px;margin-bottom: 40px;}
 .servicios .conter i.noun_Pet-friendly_2677524{font-size: 120px}
 .servicios .conter h2{color: white;font-size: 22px;text-transform: uppercase;font-family: Grand;text-align: center;margin: 5px 0}
 .servicios .conter p{color: white;font-size: 16px;text-align: center;}
@@ -154,8 +156,57 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 
 .cont-menu{padding:60px 0;background: #484848;display: flex;flex-direction: column;justify-content: center;align-items: center;position: relative;overflow: hidden;}
 .cont-menu .menu{width: 90%;max-width: 800px;margin-bottom: 30px}
-
 .cont-menu .lido-textura{width: 90%;max-width: 600px;position: absolute;bottom: -200px;left: 0;right: 0;margin: 0 auto;transition: all ease-in-out .8s}
+
+/* Dropdown menu */
+.drowpdown{
+  position: relative;
+  display: block;
+  width: 285px;
+  max-width: 90%;
+}
+.drowpdown .button{
+  width: 100%;
+}
+.drowpdown ul{
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 10;
+  list-style: none;
+  padding: 0;
+  top: 50%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+.drowpdown:hover ul{
+  top: 98%;
+  visibility: visible;
+  opacity: 1;
+}
+.drowpdown li{
+  font-size: 20px;
+}
+.drowpdown ul span{
+  color: #b2dcac;
+  padding: 10px 15px;
+  font-weight: bold;
+  display: block;
+}
+.drowpdown ul a{
+  padding: 10px 15px 10px 35px;
+  color: #000;
+  display: block;
+  transition: all .3s;
+}
+.drowpdown ul a:hover{
+  background-color: #b2dcac;
+  color: #fff;
+}
 
 
 .galeria{padding: 40px 0}

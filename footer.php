@@ -15,7 +15,7 @@
 			<a ng-click="scrollTo('galeria',$event)" class="link"><span>galería</span></a>
 			<a ng-click="scrollTo('bodas',$event)" class="link"><span>bodas y eventos</span></a>
 			<a ng-click="scrollTo('masajes',$event)" class="link"><span>masajes</span></a>
-			<a download href="/img/menu.pdf" class="link"><span>descargar menú</span></a>
+			<!-- <a download href="/img/menu.pdf" class="link"><span>descargar menú</span></a> -->
 			<a ng-click="scrollTo('contacto',$event)" class="link"><span>contacto</span></a>
 			<div class="redes">
 				<a href="https://www.instagram.com/lidobeachclub/" target="_blank"><i class="icon-fb"></i></a>

@@ -49,7 +49,7 @@
 			<a ng-click="scrollTo('galeria',$event)" class="link"><span>galería</span></a>
 			<a ng-click="scrollTo('bodas',$event)" class="link"><span>bodas y eventos</span></a>
 			<a ng-click="scrollTo('masajes',$event)" class="link"><span>masajes</span></a>
-			<a download href="/img/menu.pdf" class="link"><span>descargar menú</span></a>
+			<!-- <a download href="/img/menu.pdf" class="link"><span>descargar menú</span></a> -->
 			<a href="https://hotelcolibribeach.com/es/inicio/" target="_blank" class="colibri">
 				<img src="/img/Colibri-logo-blanco.png" alt="">
 			</a>
