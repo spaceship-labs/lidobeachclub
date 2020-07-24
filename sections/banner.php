@@ -3,11 +3,11 @@
 		<div class="cont max-widht1" ng-controller="scrollCTL">
 			
 			<div class="box">
-				<a href="">desayuno -</a>
-				<a href="">lunch -</a>
-				<a href="">cócteles -</a>
-				<a href="">música en vivo -</a>
-				<a href="">masaje</a>
+				<a>desayuno -</a>
+				<a>lunch -</a>
+				<a>cócteles -</a>
+				<a>música en vivo -</a>
+				<a>masaje</a>
 			</div>
 
 			<img src="/img/logo-lido-blanco.png" alt="">
