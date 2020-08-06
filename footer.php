@@ -34,7 +34,7 @@
 
 <?php
 
-if ($_POST['nombre']) {
+if (isset($_POST['nombre'])) {
 
 	/*
 	echo $_POST['servicio'].'<br>';
