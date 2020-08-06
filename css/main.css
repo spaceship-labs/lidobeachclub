@@ -136,8 +136,33 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 
 /**Home**/
 
-.home{min-height: 1000px;background: url(../img/home.jpg);background-size: cover;background-repeat: no-repeat;position: relative;display: flex;flex-direction: row;justify-content: center;align-items: flex-end;padding-top: 120px;box-sizing: border-box;padding-bottom: 60px;background-attachment: fixed;}
-.home:after{width: 100%;height: 100%;position: absolute;left: 0;top: 0;content: '';background: rgba(0,0,0,.4);z-index: 1}
+.home{
+  background-color:#4F5357;
+  background-image: url("/img/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 2;
+  position: relative;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 120px;
+  box-sizing: border-box;
+  padding-bottom: 60px;
+}
+.home::before{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  background-color: rgba(0,0,0,.4);
+  z-index: 1;
+}
 
 .home .cont{position: relative;z-index: 100;display: flex;flex-direction: column;align-items: center;justify-content: center;}
 .home .cont .box{
@@ -156,7 +181,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .servicios{display: flex;flex-direction: row;align-items: center;justify-content: space-between;width: 100%;flex-wrap: wrap;margin-top: 100px}
 .servicios .conter{width: 30%;display: flex;flex-direction: column;align-items: center;justify-content: center;margin: 10px}
 .servicios .conter i{color: white;font-size: 100px;margin-bottom: 40px;}
-.servicios .conter i.noun_Pet-friendly_2677524{font-size: 120px}
+.servicios .conter i.icon-noun_Pet-friendly_2677524{font-size: 80px;padding: 15px 0;}
 .servicios .conter h2{color: white;font-size: 22px;text-transform: uppercase;font-family: Grand;text-align: center;margin: 5px 0}
 .servicios .conter p{color: white;font-size: 16px;text-align: center;}
 .slider-home{background: #484848}
@@ -260,7 +285,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
   padding: 1px 0 60px 0;
   background: #484848;background-image: url('../img/textura2.png');background-size: cover;position: relative;}
 .info-masajes .max-widht{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: stretch;}
-.info-masajes h1.title2{width: 100%}
+.info-masajes h1.title2{width: 100%;padding: 0 20px;}
 .info-masajes .cont{width: 50%;padding: 20px;display: flex;flex-direction: column;box-sizing: border-box;}
 .info-masajes .cont .box{display: flex;flex-direction: column;margin: 10px 0}
 .info-masajes .cont .box h2{font-family: monse-b;font-size: 25px;margin-bottom: 10px;color: #FFFFFF;text-align: left;}
@@ -411,7 +436,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
     h1.title,
     h1.title2{font-size: 35px}
 
-    .eventos p{font-size: 18px;}
+    .eventos p{font-size: 18px;margin: 25px auto;}
     .masajes p{font-size: 18px}
     .contacto form p{font-size: 16px}
     .contacto form p strong{font-size: 18px}
@@ -437,6 +462,12 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
     }
     .header .cont .logo img{
       width: 110px;
+    }
+    .image-rigt{display: none;}
+    .home{
+      display: block;
+      background-size: auto 100%;
+      background-attachment: initial;
     }
 }
 @media(max-width: 450px){

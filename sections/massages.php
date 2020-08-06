@@ -35,7 +35,7 @@
 
     <div class="cont">
       <div class="box wow fadeInRight">
-        <h2>Masaje de tejido Profundo</h2>
+        <h2>Masaje de tejido profundo</h2>
         <p>Incluye movimientos lentos y fricción, implica una intensidad más profunda que el masaje normal. Sirve para eliminar las toxinas del cuerpo.</p>
       </div>
 

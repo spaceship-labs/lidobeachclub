@@ -180,7 +180,7 @@ app.controller('instagramCTRL', ['$scope', 'instagramFactory', '$http', function
   }
   getMedia();
   function refreshToken() {
-    conunter += 1;
+    counter += 1;
     $http
       .get($url + userId + '/refresh_access_token?grant_type=ig_refresh_token&access_token=' + token)
       .then(
