@@ -29,5 +29,5 @@
     </div>
     <?php } ?>
   </div>
-  <img src="/img/textura-lido2.png" alt="" class="lido-textura wow fadeInUp">
+  <!--<img src="/img/textura-lido2.png" alt="" class="lido-textura wow fadeInUp">-->
 </div>

@@ -7,13 +7,13 @@
     <button class='button'><span>Descargar menú</span></button>
     <ul class='dropdown-list'>
       <li><span>Español</span></li>
-      <li><a href='' download>Desayunos</a></li>
-      <li><a href='' download>Comida</a></li>
-      <li><a href='' download>Bebidas</a></li>
+      <li><a href='/menus/menu_desayuno_LIDO.pdf' download>Desayunos</a></li>
+      <li><a href='/menus/menu_lunch_LIDO.pdf' download>Comida</a></li>
+      <li><a href='/menus/menu_bebidas_LIDO.pdf' download>Bebidas</a></li>
       <li><span>English</span></li>
-      <li><a href='' download>Breakfast</a></li>
-      <li><a href='' download>Lunch</a></li>
-      <li><a href='' download>Drinks</a></li>
+      <li><a href='/menus/menu_desayuno_english_LIDO.pdf' download>Breakfast</a></li>
+      <li><a href='/menus/menu_lunch_english_LIDO.pdf' download>Lunch</a></li>
+      <li><a href='/menus/menu_bebidas_english_LIDO.pdf' download>Drinks</a></li>
     </ul>
   </div>
   <!--<img src="/img/lido-textura.png" alt="" class="lido-textura">-->

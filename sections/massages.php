@@ -8,10 +8,11 @@
 </div>
 
 <div class="info-masajes">
+  <!--
   <div class="fotos-masajes max-widht-extend">
     <img src="/img/IMG_0805.jpg" alt="">
   </div>
-  
+  -->
   <div class="max-widht">
     <h1 class="title2  wow fadeInUp">
       tipos de masaje

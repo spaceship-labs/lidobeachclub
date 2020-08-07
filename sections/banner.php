@@ -3,11 +3,12 @@
 		<div class="cont max-widht1" ng-controller="scrollCTL">
 			
 			<div class="box">
-				<a>desayuno -</a>
+				<a>desayunos -</a>
 				<a>lunch -</a>
 				<a>cócteles -</a>
 				<a>música en vivo -</a>
-				<a>masaje</a>
+				<a>masaje -</a>
+				<a>parrillada</a>
 			</div>
 
 			<img src="/img/logo-lido-blanco.png" alt="">
@@ -17,7 +18,7 @@
 			</a>
 
 			<div class="servicios">
-				
+				<!--
 				<div class="conter wow fadeInLeft" data-wow-delay=".5s">
 					<i class="icon-noun_Music_1932413"></i>
 					<h2>música en vivo</h2>
@@ -28,6 +29,7 @@
 					<h2>parrillada</h2>
 					<p>Sábados y domingos.</p>
 				</div>
+				-->
 				<div class="conter wow fadeInRight" data-wow-delay=".5s">
 					<i class="icon-noun_Pet-friendly_2677524"></i>
 					<h2>pet friendly</h2>

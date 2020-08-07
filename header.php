@@ -29,7 +29,7 @@
 		<a ng-click="scrollTo('home',$event)" class="logo">
 			<img src="/img/logo-lido-blanco.png" alt="">
 		</a>
-		<div class="info"><span>INFO</span> <a href="">+52(984)-803-1090</a> | <a>info@lidobeachclub.mx</a></div>
+		<div class="info"><span>INFO</span> <a href="">+52 (984)-803-1090</a> | <a>info@lidobeachclub.mx</a> <span>"Abiertos todos los días de 8 am a 7:30 pm.”</span></div>
 		<!--<div class="lenguaje">
 			<a href="">ING</a><a href="">|</a><a href="">ESP</a>
 		</div>-->

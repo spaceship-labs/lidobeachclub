@@ -9,14 +9,14 @@
 
 		<p class=" wow fadeInUp"><strong>Escríbenos para hacer una reserva o si tienes alguna pregunta.</strong></p>
 		<p class=" wow fadeInUp" style="font-weight: 600">
-      Playa entre calle 10 y 12 <br />
-      Colonia Centro CP 77710 <br />
-      Playa del Carmen <br />
-      México interior Hotel Colibri Beach 
+      	Playa entre calle 10 y 12 <br>
+		Colonia Centro CP 77710 <br>
+		Playa del Carmen, México <br>
+		Interior Hotel Colibrí Beach
     </p>
 		<p>
       <i class='icon-phone'></i> INFO <a href="">+52(984)-803-1090</a> | 
-      <a><i class='icon-adress'></i> info@lidobeachclub.mx</a>
+      <a><i class='icon-email'></i> info@lidobeachclub.mx</a>
     </p>
 
 		<div class="max-widht3">

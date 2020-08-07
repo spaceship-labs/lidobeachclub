@@ -12,8 +12,14 @@
 }
 @font-face {
     font-family: "Grand";
+    src: url(fonts/Montserrat-Light.otf) format("truetype");
+}
+/*
+@font-face {
+    font-family: "Grand";
     src: url(fonts/Grandstander-clean.ttf) format("truetype");
 }
+*/
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
@@ -178,7 +184,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .home .cont .scroll-down i{color: white;font-size: 80px}
 
 
-.servicios{display: flex;flex-direction: row;align-items: center;justify-content: space-between;width: 100%;flex-wrap: wrap;margin-top: 100px}
+.servicios{display: flex;flex-direction: row;align-items: center;justify-content: center;width: 100%;flex-wrap: wrap;margin-top: 100px}
 .servicios .conter{width: 30%;display: flex;flex-direction: column;align-items: center;justify-content: center;margin: 10px}
 .servicios .conter i{color: white;font-size: 100px;margin-bottom: 40px;}
 .servicios .conter i.icon-noun_Pet-friendly_2677524{font-size: 80px;padding: 15px 0;}
@@ -268,7 +274,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
   color: #4B4744;margin: 50px auto;font-size: 24px;text-align: center;width: 90%;max-width: 1050px;
   text-align: justify;
 }
-.eventos p strong{font-family: monse-b}
+/*.eventos p strong{font-family: monse-b}*/
 .eventos .lido-textura{width: 90%;max-width: 700px;position: absolute;bottom: -90px;left: 0;right: 0;margin: 0 auto}
 
 
@@ -332,7 +338,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .review .info h1{margin: 10px 0;text-align: left;font-size: 22px;font-weight: bold}
 .review .info .mensaje{font-size: 18px;text-align: justify;font-weight: 300}
 
-.contacto .cont{display: flex;flex-direction: column;background: url('../img/contacto.jpg');background-size: cover;background-position: center;position: relative;background-attachment: fixed;}
+.contacto .cont{display: flex;flex-direction: column;background: url('../img/foto.jpg');background-size: cover;background-position: center;position: relative;background-attachment: fixed;}
 .contacto .cont{height: 450px;position: relative;display: flex;flex-direction: row;justify-content: center;align-items: center;}
 .contacto .cont:after{width: 100%;height: 100%;position: absolute;left: 0;top: 0;content: '';background: rgba(0,0,0,.4);z-index: 1}
 .contacto .cont i{position: relative;z-index: 2;color: white;font-size: 180px}
@@ -341,7 +347,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .image-rigt{position: absolute;right: -2%;width: 300px;bottom: 0}
 .contacto .max-widht3{margin-top: 100px;position: relative;z-index: 10}
 .contacto h1.title{margin-bottom: 60px}
-.contacto form p{color: #4B4744;margin: 20px auto;font-size: 20px;text-align: center;width: 90%;max-width: 950px}
+.contacto form p{color: #4B4744;margin: 20px auto;font-size: 20px;text-align: left;width: 90%;max-width: 850px}
 .contacto form p strong{font-family: monse-b;color: #B2DCAC;font-size: 26px}
 
 
@@ -427,7 +433,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 @media(max-width: 700px){
   .servicios .conter{width: 100%;}
 	.home .cont .box a{font-size: 10px}
-  .info-masajes .cont{width: 100%}
+  .info-masajes .cont{width: 100%;padding:5px;}
     
     .review .img,
     .review .info{width: 100%}
