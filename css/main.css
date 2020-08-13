@@ -1,15 +1,15 @@
-@font-face {
-    font-family: "monse-b";
-    src: url(fonts/Montserrat-Bold.otf) format("truetype");
+/*@font-face {
+  font-family: "monse-b";
+  src: url(fonts/Montserrat-Bold.otf) format("truetype");
 }
 @font-face {
-    font-family: "monse-l";
-    src: url(fonts/Montserrat-Light.otf) format("truetype");
+  font-family: "monse-l";
+  src: url(fonts/Montserrat-Light.otf) format("truetype");
 }
 @font-face {
-    font-family: "monse-r";
-    src: url(fonts/Montserrat-Regular.otf) format("truetype");
-}
+  font-family: "monse-r";
+  src: url(fonts/Montserrat-Regular.otf) format("truetype");
+}*/
 @font-face {
     font-family: "Grand";
     src: url(fonts/Grandstander-clean.ttf) format("truetype");
@@ -19,7 +19,7 @@
   display: none !important;
 }
 html{margin-top: 0 !important;}
-body{font-size: 12px;font-family: monse-l;color: #4F5357;-webkit-font-smoothing: antialiased;position: relative;overflow-x: hidden;height: auto;margin: 0px}
+body{font-size: 12px;font-family: Grand;color: #4F5357;-webkit-font-smoothing: antialiased;position: relative;overflow-x: hidden;height: auto;margin: 0px}
 body *{outline: none}
 input{outline: none;}
 input:focus::-webkit-input-placeholder{color: transparent;}
@@ -55,13 +55,13 @@ img{max-width: 100%;}
 .max-widht6,
 .max-widht-extend{padding: 0;margin: 0 auto}
 
-h1.title{font-family: Grand;font-size: 50px;color: #484848;text-transform: uppercase;}
+h1.title{font-family: Grand;font-size: 50px;color: #00585F;text-transform: uppercase;}
 h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppercase;text-align: left;margin-bottom: 20px}
 
 .button{padding: 20px 30px;border: 2px solid #B2DCAC;box-sizing: border-box;;margin-top: 30px;max-width: 285px;margin: 0 auto;display: flex;flex-direction: row;justify-content: center;align-content: center;transition: all ease-in-out .5s;
   background-color: transparent;
 }
-.button span{color: #B2DCAC;font-size: 22px;text-transform: uppercase;text-align: center;font-family: monse-b;transition: all ease-in-out .5s}
+.button span{color: #B2DCAC;font-size: 22px;text-transform: uppercase;text-align: center;font-family: Grand;transition: all ease-in-out .5s}
 
 .button:hover{background: #B2DCAC}
 .button:hover span{color: white}
@@ -121,7 +121,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 
 .header.change .cont .logo{visibility: visible;}
 
-.header.change{background: #484848}
+.header.change{background: #00585F}
 
 /*
 .header.change .cont .info span,
@@ -184,11 +184,11 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .servicios .conter i.icon-noun_Pet-friendly_2677524{font-size: 80px;padding: 15px 0;}
 .servicios .conter h2{color: white;font-size: 22px;text-transform: uppercase;font-family: Grand;text-align: center;margin: 5px 0}
 .servicios .conter p{color: white;font-size: 16px;text-align: center;}
-.slider-home{background: #484848}
+.slider-home{background: #00585F}
 .slider-home .item{display: flex;flex-direction: row;justify-content: center;align-items: center;}
 .slider-home img{width: 100%;}
 
-.cont-menu{padding:60px 0;background: #484848;display: flex;flex-direction: column;justify-content: center;align-items: center;position: relative;}
+.cont-menu{padding:60px 0;background: #00585F;display: flex;flex-direction: column;justify-content: center;align-items: center;position: relative;}
 .cont-menu .menu{width: 90%;max-width: 800px;margin-bottom: 30px}
 .cont-menu .lido-textura{width: 90%;max-width: 600px;position: absolute;bottom: -200px;left: 0;right: 0;margin: 0 auto;transition: all ease-in-out .8s}
 
@@ -268,7 +268,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
   color: #4B4744;margin: 50px auto;font-size: 24px;text-align: center;width: 90%;max-width: 1050px;
   text-align: justify;
 }
-.eventos p strong{font-family: monse-b}
+.eventos p strong{font-family: Grand}
 .eventos .lido-textura{width: 90%;max-width: 700px;position: absolute;bottom: -90px;left: 0;right: 0;margin: 0 auto}
 
 
@@ -278,17 +278,17 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
   color: #4B4744;margin: 20px auto;font-size: 24px;text-align: center;width: 90%;max-width: 1050px;
   text-align: justify;
 }
-.masajes p strong{font-family: monse-b;color: #B2DCAC}
+.masajes p strong{font-family: Grand;color: #B2DCAC}
 .masajes i{color: #B2DCAC;font-size: 300px;margin-top: 18px}
 
 .info-masajes{
   padding: 1px 0 60px 0;
-  background: #484848;background-image: url('../img/textura2.png');background-size: cover;position: relative;}
+  background: #00585F;background-image: url('../img/textura2.png');background-size: cover;position: relative;}
 .info-masajes .max-widht{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: stretch;}
 .info-masajes h1.title2{width: 100%;padding: 0 20px;}
 .info-masajes .cont{width: 50%;padding: 20px;display: flex;flex-direction: column;box-sizing: border-box;}
 .info-masajes .cont .box{display: flex;flex-direction: column;margin: 10px 0}
-.info-masajes .cont .box h2{font-family: monse-b;font-size: 25px;margin-bottom: 10px;color: #FFFFFF;text-align: left;}
+.info-masajes .cont .box h2{font-family: Grand;font-size: 25px;margin-bottom: 10px;color: #FFFFFF;text-align: left;}
 .info-masajes .cont .box p{font-size: 16px;text-align: justify;;color: #FFFFFF}
 
 .fotos-masajes{
@@ -342,7 +342,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .contacto .max-widht3{margin-top: 100px;position: relative;z-index: 10}
 .contacto h1.title{margin-bottom: 60px}
 .contacto form p{color: #4B4744;margin: 20px auto;font-size: 20px;text-align: center;width: 90%;max-width: 950px}
-.contacto form p strong{font-family: monse-b;color: #B2DCAC;font-size: 26px}
+.contacto form p strong{font-family: Grand;color: #B2DCAC;font-size: 26px}
 
 
 .contacto label{font-size: 18px;text-align: left;color: #B2DCAC;text-transform: capitalize;}
@@ -354,16 +354,16 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .contacto .button:hover{background: white;}
 .contacto .button:hover span{color: #344D30}
 
-.footer{padding: 80px 0 20px 0;background: #484848;margin-top: -5px}
+.footer{padding: 80px 0 20px 0;background: #00585F;margin-top: -5px}
 .footer .max-widht4{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;}
 .footer .max-widht4 .cont{width: 50%;display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 10px;box-sizing: border-box;}
 .footer .max-widht4 .cont img{width: 100%}
-.footer .max-widht4 .cont .link{color: #B4D8B2;margin-bottom: 6px;text-align: left;text-transform: uppercase;font-size: 16px;font-family: monse-b;width: 100%}
+.footer .max-widht4 .cont .link{color: #B4D8B2;margin-bottom: 6px;text-align: left;text-transform: uppercase;font-size: 16px;font-family: Grand;width: 100%}
 .footer .max-widht4 .cont .redes{display: flex;flex-direction: row;justify-content: flex-start;align-items: center;width: 100%;margin-top: 30px}
 .footer .max-widht4 .cont .redes a{margin: 5px}
 .footer .max-widht4 .cont .redes i{color: #B4D8B2;font-size: 30px;}
 .footer .copy{margin-top: 80px;width: 100%;display: flex;flex-direction: row;justify-content: center;align-items: center;}
-.footer .copy p{color: #B4D8B2;font-size: 20px;font-family: monse-b}
+.footer .copy p{color: #B4D8B2;font-size: 20px;font-family: Grand}
 
 .footer .max-widht4 .cont .link:hover{color: white}
 .footer .max-widht4 .cont .redes:hover i{color: white}
@@ -418,7 +418,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 
 @media(max-width: 840px){
   .header .cont .open-menu{width: 33%;display: flex;flex-direction: row;align-items: center;justify-content: center;}
-  .header .cont .links{position: fixed;left: 0;top: 0;width: 50%;background: #484848;flex-direction: column;height: 100%;left: -100%;z-index: 200000000}
+  .header .cont .links{position: fixed;left: 0;top: 0;width: 50%;background: #00585F;flex-direction: column;height: 100%;left: -100%;z-index: 200000000}
   .header .cont .info{width: 100%;margin-bottom: 10px}
   .header .cont .lenguaje{width: 33%;margin: 0;padding: 0 10px;box-sizing: border-box;flex-direction: row;align-items: center;justify-content: center;}
   .header .cont .redes{width: 33%;margin: 0;padding: 0 10px;box-sizing: border-box;flex-direction: row;align-items: center;justify-content: center;}

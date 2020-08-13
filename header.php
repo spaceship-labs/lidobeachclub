@@ -27,7 +27,7 @@
 
 	<div class="cont max-widht-extend">
 		<a ng-click="scrollTo('home',$event)" class="logo">
-			<img src="/img/logo-lido-blanco.png" alt="">
+			<img src="/img/Nuevo-logo-lido.png" alt="">
 		</a>
 		<div class="info"><span>INFO</span> <a href="">+52(984)-803-1090</a> | <a>info@lidobeachclub.mx</a></div>
 		<!--<div class="lenguaje">

@@ -7,7 +7,7 @@
 	<div class="max-widht4">
 		
 		<div class="cont  wow fadeInLeft">
-			<img src="/img/logo-lido-verde.png" alt="">
+			<img src="/img/Nuevo-logo-lido.png" alt="">
 		</div>
 		<div class="cont  wow fadeInRight" ng-controller="scrollCTL">
 			<a ng-click="scrollTo('home',$event)" class="link"><span>home</span></a>
@@ -18,8 +18,9 @@
 			<!-- <a download href="/img/menu.pdf" class="link"><span>descargar menú</span></a> -->
 			<a ng-click="scrollTo('contacto',$event)" class="link"><span>contacto</span></a>
 			<div class="redes">
-				<a href="https://www.instagram.com/lidobeachclub/" target="_blank"><i class="icon-fb"></i></a>
-				<a href="https://www.facebook.com/lidobeachclub" target="_blank"><i class="icon-insta"></i></a>
+			
+				<a href="https://www.facebook.com/lidobeachclub" target="_blank"><i class="icon-fb"></i></a>
+				<a href="https://www.instagram.com/lidobeachclub/" target="_blank"><i class="icon-insta"></i></a>
 				<a href="https://www.tripadvisor.com/" target="_blank"><i class="icon-tripadvisor"></i></a>
 			</div>
 		</div>
