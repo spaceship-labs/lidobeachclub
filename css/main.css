@@ -56,7 +56,7 @@ img{max-width: 100%;}
 .max-widht-extend{padding: 0;margin: 0 auto}
 
 h1.title{font-family: Grand;font-size: 50px;color: #00585F;text-transform: uppercase;}
-h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppercase;text-align: left;margin-bottom: 20px}
+h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppercase;text-align: left; margin-top: 65px;}
 
 .button{padding: 20px 30px;border: 2px solid #B2DCAC;box-sizing: border-box;;margin-top: 30px;max-width: 285px;margin: 0 auto;display: flex;flex-direction: row;justify-content: center;align-content: center;transition: all ease-in-out .5s;
   background-color: transparent;
@@ -284,12 +284,12 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 .info-masajes{
   padding: 1px 0 60px 0;
   background: #00585F;background-image: url('../img/textura2.png');background-size: cover;position: relative;}
-.info-masajes .max-widht{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: stretch;}
+.info-masajes .max-widht{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: left;align-items: stretch;}
 .info-masajes h1.title2{width: 100%;padding: 0 20px;}
-.info-masajes .cont{width: 50%;padding: 20px;display: flex;flex-direction: column;box-sizing: border-box;}
+.info-masajes .cont{width: 48%;padding: 20px;display: flex;flex-direction: column;box-sizing: border-box;}
 .info-masajes .cont .box{display: flex;flex-direction: column;margin: 10px 0}
-.info-masajes .cont .box h2{font-family: Grand;font-size: 25px;margin-bottom: 10px;color: #FFFFFF;text-align: left;}
-.info-masajes .cont .box p{font-size: 16px;text-align: justify;;color: #FFFFFF}
+.info-masajes .cont .box h2{font-family: Grand;font-size: 25px;margin-bottom: 5px;color: #FFFFFF;text-align: left;}
+.info-masajes .cont .box p{font-size: 19px;text-align: justify;;color: #FFFFFF; margin-bottom: 3px;}
 
 .fotos-masajes{
   position: relative;
@@ -334,7 +334,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
 
 .contacto .cont{display: flex;flex-direction: column;background: url('../img/contacto.jpg');background-size: cover;background-position: center;position: relative;background-attachment: fixed;}
 .contacto .cont{height: 450px;position: relative;display: flex;flex-direction: row;justify-content: center;align-items: center;}
-.contacto .cont:after{width: 100%;height: 100%;position: absolute;left: 0;top: 0;content: '';background: rgba(0,0,0,.4);z-index: 1}
+.contacto .cont:after{width: 100%;height: 100%;position: absolute;left: 0;top: 0;content: '';background:rgba(0,0,0,.4);z-index: 1}
 .contacto .cont i{position: relative;z-index: 2;color: white;font-size: 180px}
 
 .contacto form{padding: 80px 0;position: relative;overflow: hidden;}
