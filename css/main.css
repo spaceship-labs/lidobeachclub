@@ -173,7 +173,7 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
   color: white;font-size: 20px;font-family: Grand;text-transform: uppercase;margin: 5px;
   cursor: initial;
 }
-.home .cont .logo{width: 90%;max-width: 400px;margin: 0 auto}
+.home .cont .logo{width: 10%;max-width: 400px;margin: 0 auto}
 .home .cont .scroll-down{margin-top: 50px}
 .home .cont .scroll-down i{color: white;font-size: 80px}
 
