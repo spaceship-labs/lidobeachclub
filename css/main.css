@@ -36,7 +36,7 @@ a{color: initial;text-decoration: none;cursor: pointer;}
 a:focus{outline: none;color: none;}
 a{text-decoration: none!important;outline: none;}
 a:hover{text-decoration: none;outline: none;color: inherit;}
-h1,h2,h3,h4,h5,h6,p{margin:0px;line-height:normal;}
+h1,h2,h3,h4,h5,h6,p{margin:0px;line-height:normal;text-align:justify;}
 h1,h2,h3,h4,h5,h6{text-align: center;font-weight: normal;}
 button{border: none;outline: none}
 
@@ -44,6 +44,11 @@ button[disabled], html input[type=button][disabled], input[type=reset][disabled]
 .input.ng-invalid.ng-dirty{border: 1px solid #E62117!important}
 .input.ng-valid{background: white}
 img{max-width: 100%;}
+
+/*IDs*/
+
+#main-logo{max-width: 37%}
+
 /*Globales*/
 
 .max-widht,
@@ -56,7 +61,7 @@ img{max-width: 100%;}
 .max-widht-extend{padding: 0;margin: 0 auto}
 
 h1.title{font-family: Grand;font-size: 50px;color: #00585F;text-transform: uppercase;}
-h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppercase;text-align: left; margin-top: 65px;}
+h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppercase;text-align: left;}
 
 .button{padding: 20px 30px;border: 2px solid #B2DCAC;box-sizing: border-box;;margin-top: 30px;max-width: 285px;margin: 0 auto;display: flex;flex-direction: row;justify-content: center;align-content: center;transition: all ease-in-out .5s;
 background-color: transparent;
@@ -173,7 +178,8 @@ flex-wrap: wrap;
 color: white;font-size: 20px;font-family: Grand;text-transform: uppercase;margin: 5px;
 cursor: initial;
 }
-.home .cont .logo{width: 90%;max-width: 400px;margin: 0 auto}
+
+.home .cont .logo{width: 10%;max-width: 400px;margin: 0 auto}
 .home .cont .scroll-down{margin-top: 50px}
 .home .cont .scroll-down i{color: white;font-size: 80px}
 
@@ -282,14 +288,14 @@ text-align: justify;
 .masajes i{color: #B2DCAC;font-size: 300px;margin-top: 18px}
 
 .info-masajes{
-padding: 1px 0 60px 0;
+padding: 50px 0 60px 0;
 background: #00585F;background-image: url('../img/textura2.png');background-size: cover;position: relative;}
 .info-masajes .max-widht{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: left;align-items: stretch;}
 .info-masajes h1.title2{width: 100%;padding: 0 20px;}
 .info-masajes .cont{width: 48%;padding: 20px;display: flex;flex-direction: column;box-sizing: border-box;}
-.info-masajes .cont .box{display: flex;flex-direction: column;margin: 10px 0}
+.info-masajes .cont .box{display: flex;flex-direction: column;margin-top: 50px;}
 .info-masajes .cont .box h2{font-family: Grand;font-size: 25px;margin-bottom: 5px;color: #FFFFFF;text-align: left;}
-.info-masajes .cont .box p{font-size: 19px;text-align: justify;;color: #FFFFFF; margin-bottom: 3px;}
+.info-masajes .cont .box p{font-size: 19px;text-align: justify;;color: #FFFFFF; margin-bottom: 6px;}
 
 .fotos-masajes{
 position: relative;
@@ -341,7 +347,7 @@ flex: 1;
 .image-rigt{position: absolute;right: -2%;width: 300px;bottom: 0}
 .contacto .max-widht3{margin-top: 100px;position: relative;z-index: 10}
 .contacto h1.title{margin-bottom: 60px}
-.contacto form p{color: #4B4744;margin: 20px auto;font-size: 20px;text-align: center;width: 90%;max-width: 950px}
+.contacto form p{color: #4B4744;margin: 20px auto;font-size: 20px;text-align: center;width: 70%;max-width: 950px}
 .contacto form p strong{font-family: Grand;color: #B2DCAC;font-size: 26px}
 
 
@@ -475,3 +481,10 @@ flex: 1;
   text-align: left;
 }
 }
+
+/* phones with portrait orientation*/
+/*@media only screen and (orientation: portrait){
+.contact-info{
+  width: 70%;
+}
+}*/
