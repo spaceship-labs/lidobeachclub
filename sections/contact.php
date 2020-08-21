@@ -14,7 +14,7 @@
       Playa del Carmen <br />
       México interior Hotel Colibri Beach 
     </p>
-		<p>
+		<p class="contact-info">
       <i class='icon-phone'></i> INFO <a href="">+52(984)-803-1090</a> | 
       <a><i class='icon-adress'></i> info@lidobeachclub.mx</a>
     </p>
