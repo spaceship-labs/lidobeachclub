@@ -10,7 +10,7 @@
 				<a>masaje</a>
 			</div>
 
-			<img id="main-logo" src="/img/Nuevo-logo-lido.png" alt="">
+			<img class="main-logo-size" src="/img/Nuevo-logo-lido.png" alt="">
 
 			<a ng-click="scrollTo('pointer',$event)" class="scroll-down">
 				<i class="icon-noun_scroll-down_2925967"></i>
