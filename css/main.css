@@ -43,7 +43,7 @@ button{border: none;outline: none}
 button[disabled], html input[type=button][disabled], input[type=reset][disabled], input[type=submit][disabled]{opacity: .5}
 .input.ng-invalid.ng-dirty{border: 1px solid #E62117!important}
 .input.ng-valid{background: white}
-img{max-width: 100%;}
+img{max-width: 100%}
 
 /*IDs*/
 
@@ -482,9 +482,28 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
   }
 }
 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px){
+  .main-logo-size{max-width: 67%}
+}
+
 /* phones with portrait orientation*/
-/*@media only screen and (orientation: portrait){
-  .contact-info{
-    width: 70%;
-  }
-}*/
+@media only screen and (orientation: portrait){
+  .main-logo-size{max-width: 67%}
+}
+
+/* phones with landscape orientation*/
+@media only screen and (orientation: landscape){
+  .main-logo-size{max-width: 47%;}
+}
+
+@media only screen and (min-width: 600px), (orientation: portrait), (orientation:landscape){
+  /* For tablets: */
+  .main-logo-size{max-width: 53%}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .main-logo-size{max-width: 38%}
+}
