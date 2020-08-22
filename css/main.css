@@ -498,10 +498,10 @@ h1.title2{font-family: Grand;font-size: 50px;color: #B5DCB0;text-transform: uppe
   .main-logo-size{max-width: 47%;}
 }
 
-@media only screen and (min-width: 600px), (orientation: portrait), (orientation:landscape){
-  /* For tablets: */
+/*@media only screen and (min-width: 600px){
+For tablets:
   .main-logo-size{max-width: 53%}
-}
+}*/
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
