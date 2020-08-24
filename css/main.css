@@ -288,7 +288,7 @@ text-align: justify;
 .masajes i{color: #B2DCAC;font-size: 300px;margin-top: 18px}
 
 .info-masajes{
-padding: 50px 0 60px 0;
+padding: 180px 0 100px 0;
 background: #00585F;background-image: url('../img/textura2.png');background-size: cover;position: relative;}
 .info-masajes .max-widht{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: left;align-items: stretch;}
 .info-masajes h1.title2{width: 100%;padding: 0 20px;}
