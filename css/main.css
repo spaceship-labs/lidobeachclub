@@ -36,7 +36,7 @@ a{color: initial;text-decoration: none;cursor: pointer;}
 a:focus{outline: none;color: none;}
 a{text-decoration: none!important;outline: none;}
 a:hover{text-decoration: none;outline: none;color: inherit;}
-h1,h2,h3,h4,h5,h6,p{margin:0px;line-height:normal;text-align:justify;}
+h1,h2,h3,h4,h5,h6,p{margin:0px; padding-top: 10px; line-height:250%;text-align:justify;}
 h1,h2,h3,h4,h5,h6{text-align: center;font-weight: normal;}
 button{border: none;outline: none}
 
